@@ -1,0 +1,558 @@
+/* =============================== fonts links css part start ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* -------------------------------- fonts links css part end ------------------ */
+
+/* =============================== Basic css part start ===================== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f9f9f9;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* -------------------------------- Basic css part end ------------------ */
+/* =============================== navbar css part start ===================== */
+#main_manu {
+    width: 100%;
+    height: 90px;
+    background: #000;
+}
+
+.manu_row {
+    line-height: 90px;
+}
+
+.manu_row .logo_col {
+    width: 30%;
+    float: left;
+}
+
+.manu_row .logo_col img {
+    width: 100px;
+    height: 25px;
+}
+
+.manu_col {
+    width: 70%;
+    float: left;
+}
+
+.manu_col ul {
+    float: right;
+}
+
+.manu_col ul li {
+    float: left;
+    margin-left: 44px;
+}
+
+.manu_col ul li a {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    transition: all linear .3s;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.manu_col ul li a:hover {
+    color: #28b8d8;
+}
+
+/* -------------------------------- navbar  css part end ------------------ */
+/* ============================= banner css part start ==================== */
+#banner {
+    padding-top: 241px;
+    padding-bottom: 252px;
+    background: url(../images/bannar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_text h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.banner_text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 6px;
+}
+
+.banner_text h3 {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-align: center;
+
+}
+
+/* -------------------------------- banner css part end ------------------ */
+/* ============================= about css part start ===================== */
+#about {
+    padding-top: 79px;
+    padding-bottom: 82px;
+}
+
+#about .about_text h1 {
+    font-size: 30px;
+    color: #444444;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 30px;
+}
+
+#about .about_text p {
+    font-size: 14px;
+    font-size: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 80px;
+}
+
+#about .about_text h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.services_row {
+    margin-top: 30px;
+}
+
+.services_row .services_col {
+    width: 370px;
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 30px;
+}
+
+.services_row .services_col:nth-child(3) {
+    margin-right: 0;
+}
+
+.services_col .services_text h4 {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.services_col .services_text p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 16px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------------------- about css part end -------------------- */
+/* ================== insta_short css part start ================ */
+#insta_short {
+    background: #2c2c2c;
+    padding: 50px 0px;
+}
+
+.common_head h4 {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #d5d5d5;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.common_head h4::after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.common_head h4::before {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    position: absolute;
+    top: 50%;
+    right: 30%;
+}
+
+.insta_row .insta_col img {
+    width: 337px;
+}
+
+.insta_row .insta_col {
+    float: left;
+}
+
+#insta_short .insta_button {
+    margin-top: 60px;
+    text-align: center;
+}
+
+#insta_short .insta_button a {
+    width: 179px;
+    height: 48px;
+    line-height: 48px;
+    border: 1px solid #797979;
+    font-size: 14px;
+    color: #a6a6a6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all linear .5s;
+}
+
+#insta_short .insta_button a:hover {
+    color: #28b8d8;
+    border: 1px solid #28b8d8;
+}
+
+/* ----------------------- insta short css part end -------------------- */
+/* ======================= journal css part Start =====================*/
+#journal {
+    padding-top: 78px;
+    padding-bottom: 85px;
+}
+
+#journal .common_head h4 {
+    color: #444444;
+}
+
+#journal .common_head h4::after {
+    left: 33%;
+}
+
+#journal .common_head h4::before {
+    right: 33%;
+}
+
+#journal .journal_col {
+    width: 370px;
+    background: #ffffff;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 30px;
+}
+
+#journal .journal_col:nth-child(3) {
+    margin-right: 0;
+}
+
+.journal_col .journal_head {
+    padding: 25px 0;
+    text-align: center;
+}
+
+.journal_col .journal_head h3 {
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    margin-bottom: 12px;
+}
+
+.journal_col .journal_head p {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
+
+.journal_col .journal_text p {
+    padding: 28px 30px 25px 27px;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.read_more_row {
+    padding-left: 27px;
+    padding-right: 31px;
+    padding-bottom: 30px;
+}
+
+.read_more_row .Continue_col p {
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    float: left;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.read_more_row .heart_col p {
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    float: right;
+}
+
+.read_more_row .Continue_col p::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #28b8d8;
+    position: absolute;
+    top: 110%;
+    left: 0;
+}
+
+/* ----------------------- journal css part end -----------------------*/
+/* ======================= resume css part Start =====================*/
+#resume {
+    padding-bottom: 81px;
+
+}
+
+.resume_col_one {
+    float: left;
+}
+
+.resume_head h2 {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: 444444;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume_head h2::after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.photo_col {
+    float: left;
+}
+
+.resume_photo_text .photo_col img {
+    width: 197px;
+}
+
+.text_col {
+    margin-left: 30px;
+    float: left;
+
+}
+
+.text_col p {
+    width: 338px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    line-height: 23px;
+}
+
+.text_col p span {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #666666;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.resume_col_two {
+    float: left;
+    margin-left: 38px;
+}
+
+.resume_col_two .resume_head h2::after {
+    left: 19%;
+}
+
+.icon_col {
+    float: left;
+    margin-right: 25px;
+}
+
+.icon_col img {
+    width: 41px;
+    height: 36px;
+}
+
+.icon_text_col {
+    float: left;
+}
+
+.icon_text_col h2 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #444444;
+    font-family: 'Roboto Slab', serif;
+}
+
+.icon_text_col p {
+    width: 457px;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+/* ----------------------- resume css part end -----------------------*/
+/* ======================= footer css part Start =====================*/
+#footer {
+    background: #373737;
+    padding-top: 68px;
+}
+
+.footer_col {
+    float: left;
+    margin-right: 49px;
+}
+
+.footer_col:nth-child(4) {
+    margin-right: 0;
+}
+
+.footer_col .footer_head h4 {
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 26px;
+    text-transform: uppercase;
+}
+
+.footer_col .footer_text p {
+    color: #cacaca;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 255px;
+    margin-bottom: 35px;
+}
+
+.footer_text p:nth-child(4) {
+    margin-bottom: 0px;
+    background-color: #28b8d8;
+}
+
+.footer_text .footer_tex_two {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #929292;
+}
+
+.footer_contract {
+    margin-bottom: 16px;
+}
+
+.footer_contract:nth-child(3) {
+    margin-bottom: none;
+}
+
+.footer_contract ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #cacaca;
+    transition: all linear .4s;
+}
+
+.footer_contract ul li a:hover {
+    color: #28b8d8;
+}
+
+.footer_contract ul li .icon {
+    margin-right: 16px;
+}
+
+.footer_contract ul li a .line_br {
+    display: block;
+    margin-left: 31px;
+}
+
+.copyright {
+    height: 91px;
+    background: #333333;
+    margin-top: 35px;
+}
+
+.copyright .copyright_text p {
+    line-height: 91px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #cacaca;
+}
+
+/* ----------------------- footer css part end -----------------------*/
